@@ -1,0 +1,96 @@
+.hero {
+  position: relative;
+  padding-top: 75px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 35px;
+}
+
+.sliders {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sliders .slider {
+  position: relative;
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: maroon;
+}
+
+.sliders .image {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.sliders .image.active {
+  opacity: 1;
+}
+.sliders .btns {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Adjust to center using transform */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 15;
+}
+
+.sliders .prv,
+.sliders .nxt {
+  border: none;
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: 800;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.gen h2 {
+  padding: 5px;
+  font-size: 30px;
+  display: inline-block;
+}
+.gen p {
+  font-size: 18px;
+  padding: 5px;
+}
+.gen ul {
+  font-size: 18px;
+  padding: 5px;
+  list-style-type: none;
+}
+.gen ul li {
+  border-bottom: 1px solid #ddd;
+  width: 18%;
+}
+
+.gen ul li:first-child,
+.gen ul li:last-child {
+  border: none;
+}
+
+.gen ul li:hover {
+  font-weight: 800;
+  color: blue;
+}
+
+.gen {
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}

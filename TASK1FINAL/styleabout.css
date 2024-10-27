@@ -1,0 +1,71 @@
+.hero {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+  top: 80px;
+}
+
+.horizontal {
+  width: 70%;
+}
+.horizontal .story {
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.story h2 {
+  font-size: 28px;
+}
+.story p {
+  font-size: 15px;
+}
+
+.obj {
+  width: 35%;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  font-size: 18px;
+}
+
+.obj h2 {
+  margin-bottom: 10px;
+}
+
+.obj ul {
+  list-style-type: none;
+}
+.obj ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.obj ul li:hover {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.obj ul li strong:hover {
+  color: blue;
+  font-weight: 800;
+}
